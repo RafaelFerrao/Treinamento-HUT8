@@ -3,13 +3,12 @@
 // Exemplo entrada: [5, 9, 10, 6]
 // Exemplo Saída: 47
 
-let arr = [5, 9, 10, 6]
-let soma = 0
+let arr = [5, 9, 10, 6];
+let soma = 0;
 
 function sumMultiplyByIndex(arr) {
-  for (let numIndex in arr) 
-    soma += arr[numIndex] * numIndex
-  return soma
+  for (let numIndex in arr) soma += arr[numIndex] * numIndex;
+  return soma;
 }
 
-console.log(sumMultiplyByIndex(arr))
+console.log(sumMultiplyByIndex(arr));
