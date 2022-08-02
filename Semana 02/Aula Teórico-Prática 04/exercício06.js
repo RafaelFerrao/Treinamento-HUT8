@@ -23,6 +23,6 @@ function contaPropriedades(arr) {
             `${quantNeg} valor(es) negativo(s)`);
 }
 
-
+contaPropriedades(arrNum)
 
 
