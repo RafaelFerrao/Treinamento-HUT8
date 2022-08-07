@@ -7,4 +7,4 @@ myUser = {
     'email': 'rafael.sf@inf.ufpel.edu.br'
 };
 
-console.log(myUser)
+console.log(myUser);

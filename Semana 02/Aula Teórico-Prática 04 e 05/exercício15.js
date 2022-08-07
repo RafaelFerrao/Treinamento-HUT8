@@ -13,8 +13,8 @@ const calculaMedia = notas => {
     let media = 0;
     for (nota of notas)
         media += nota;
-    media = media / notas.length
-    return media
+    media = media / notas.length;
+    return media;
 }
 
 for (estudante of estudantes) {
