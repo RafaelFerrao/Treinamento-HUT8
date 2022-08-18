@@ -1,0 +1,8 @@
+// Troque todas as vírgulas na string abaixo por ponto final:
+// “Olá, mundo, meu, nome, é, Juca”
+
+let str = "Olá, mundo, meu, nome, é, Juca";
+
+str = str.replace(/,/g, ".");
+
+console.log(str);
